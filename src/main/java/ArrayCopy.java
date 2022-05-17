@@ -1,10 +1,25 @@
+package main.java;
+
 import java.util.Arrays;
+import java.util.Date;
 
 public class ArrayCopy {
     public static void main(String[] args) {
+
+         long TOKEN_VALIDITY = 10 * 90;
+
+        System.out.println(TOKEN_VALIDITY * 1000);
+
+        Date in = new Date(System.currentTimeMillis());
+        Date fin = new Date(System.currentTimeMillis() + TOKEN_VALIDITY * 1000);
+
+        System.out.println(in);
+        System.out.println(fin);
+
+
         // COPY OF ARRAY WITH      System.arraycopy();
 /////////////////// EXAMPLE  WHERE WE ELIMINATE THE ELEMENT FROM THE MIDDLE OF AN ARRAY //////////////////
-        int[] arraySource = {1,2,3,4,5,6,7};
+ /*       int[] arraySource = {1,2,3,4,5,6,7};
         int[] arrayDestination = {0,0,0,0,0,0};
 
         System.out.println("arraySource " + Arrays.toString(arraySource));
@@ -17,7 +32,7 @@ public class ArrayCopy {
 
         System.out.println("Array Destination after changes");
         System.out.println("Array Destination " + Arrays.toString(arrayDestination));
-
+*/
         /////////////////////////////////////////// START BASE EXAMPLE ////////////////////////////////////
 
 //        int[] arraySource = {1,2,3,4,5,6};
