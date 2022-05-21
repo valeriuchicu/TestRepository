@@ -1,0 +1,19 @@
+Index: src/ArrayCopy.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Arrays;\r\n\r\npublic class ArrayCopy {\r\n    public static void main(String[] args) {\r\n        // COPY OF ARRAY WITH      System.arraycopy();\r\n/////////////////// EXAMPLE  WHERE WE ELIMINATE THE ELEMENT FROM THE MIDDLE OF AN ARRAY //////////////////\r\n        int[] arraySource = {1,2,3,4,5,6,7};\r\n        int[] arrayDestination = {0,0,0,0,0,0};\r\n\r\n        System.out.println(\"arraySource \" + Arrays.toString(arraySource));\r\n        System.out.println(\"arrayDestination \" + Arrays.toString(arrayDestination));\r\n\r\n        System.out.println(\"===========================================\");\r\n\r\n        System.arraycopy(arraySource, 0,arrayDestination,0,3);\r\n        System.arraycopy(arraySource, 4,arrayDestination,3,3);\r\n\r\n        System.out.println(\"Array Destination after changes\");\r\n        System.out.println(\"Array Destination \" + Arrays.toString(arrayDestination));\r\n\r\n        /////////////////////////////////////////// START BASE EXAMPLE ////////////////////////////////////\r\n\r\n//        int[] arraySource = {1,2,3,4,5,6};\r\n//        int[] arrayDestination = {0,0,0,0,0,0,0,0};\r\n//\r\n//        System.out.println(\"arraySource \" + Arrays.toString(arraySource));\r\n//        System.out.println(\"arrayDestination \" + Arrays.toString(arrayDestination));\r\n//\r\n//        System.out.println(\"===========================================\");\r\n//\r\n//        System.arraycopy(arraySource, 2,arrayDestination,2,2);\r\n//\r\n//        System.out.println(\"Array Destination after changes\");\r\n//        System.out.println(\"Array Destination \" + Arrays.toString(arrayDestination));\r\n        /////////////////////////////////////////// END BASE EXAMPLE ////////////////////////////////////\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/ArrayCopy.java b/src/ArrayCopy.java
+--- a/src/ArrayCopy.java	(revision b58fae0eced95ac6fc65eb94e9954efab98f6485)
++++ b/src/ArrayCopy.java	(date 1653111420475)
+@@ -17,6 +17,8 @@
+ 
+         System.out.println("Array Destination after changes");
+         System.out.println("Array Destination " + Arrays.toString(arrayDestination));
++        
++        // C0
+ 
+         /////////////////////////////////////////// START BASE EXAMPLE ////////////////////////////////////
+ 
