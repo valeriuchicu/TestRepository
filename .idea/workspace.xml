@@ -18,10 +18,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="RemoteBranch-2" />
+        <entry key="$PROJECT_DIR$" value="b58fae0eced95ac6fc65eb94e9954efab98f6485" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -40,13 +41,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vchicu/homework/TestProject",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/vchicu/homework/TestProject&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -135,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrayCopy" />
-        <item itemvalue="JUnit.StackTest" />
         <item itemvalue="JUnit.StackTest.whenPushedPastCapacity_ItOverflows" />
-        <item itemvalue="JUnit.StackTest.whenOneAndTwoArePushed_TwoAndOneArePopped" />
         <item itemvalue="JUnit.StackTest.whenOneIsPushed_OneIsPopped" />
+        <item itemvalue="JUnit.StackTest.whenOneAndTwoArePushed_TwoAndOneArePopped" />
+        <item itemvalue="JUnit.StackTest" />
+        <item itemvalue="Application.ArrayCopy" />
       </list>
     </recent_temporary>
   </component>

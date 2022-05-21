@@ -17,6 +17,10 @@ public class ArrayCopy {
 
         System.out.println("Array Destination after changes");
         System.out.println("Array Destination " + Arrays.toString(arrayDestination));
+        
+        // C0
+        
+        // C2
 
 
         // NEW COMMENT
