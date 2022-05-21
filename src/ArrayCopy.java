@@ -20,6 +20,8 @@ public class ArrayCopy {
 
 
         // NEW COMMENT
+        // NEW COMMENT
+        // NEW COMMENT
 
         /////////////////////////////////////////// START BASE EXAMPLE ////////////////////////////////////
 
