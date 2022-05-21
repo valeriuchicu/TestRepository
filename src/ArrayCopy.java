@@ -18,6 +18,9 @@ public class ArrayCopy {
         System.out.println("Array Destination after changes");
         System.out.println("Array Destination " + Arrays.toString(arrayDestination));
 
+
+        // NEW COMMENT
+
         /////////////////////////////////////////// START BASE EXAMPLE ////////////////////////////////////
 
 //        int[] arraySource = {1,2,3,4,5,6};
